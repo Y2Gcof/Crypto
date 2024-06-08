@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F05DC052C0C812400B53794 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC042C0C812400B53794 /* UserModel.swift */; };
+		1F05DC072C0C857300B53794 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC062C0C857300B53794 /* UserViewModel.swift */; };
+		1F05DC0D2C10AE3100B53794 /* ButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC0C2C10AE3100B53794 /* ButtonApp.swift */; };
+		1F05DC0F2C10D01C00B53794 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC0E2C10D01C00B53794 /* CoinModel.swift */; };
+		1F05DC112C10E2AD00B53794 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC102C10E2AD00B53794 /* CoinRowView.swift */; };
+		1F05DC132C10E87C00B53794 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC122C10E87C00B53794 /* PreviewProvider.swift */; };
+		1F05DC152C10EEFE00B53794 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC142C10EEFE00B53794 /* Double.swift */; };
+		1F05DC172C1113D100B53794 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DC162C1113D100B53794 /* HomeViewModel.swift */; };
 		1F1B30ED2BED0D3F0087776A /* CrypoCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B30EC2BED0D3F0087776A /* CrypoCoinApp.swift */; };
-		1F1B30EF2BED0D3F0087776A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B30EE2BED0D3F0087776A /* ContentView.swift */; };
 		1F1B30F12BED0D420087776A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B30F02BED0D420087776A /* Assets.xcassets */; };
 		1F1B30F42BED0D420087776A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B30F32BED0D420087776A /* Preview Assets.xcassets */; };
 		1F1B30FE2BED0D420087776A /* CrypoCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B30FD2BED0D420087776A /* CrypoCoinTests.swift */; };
@@ -29,6 +36,22 @@
 		1F1B31352BED1A2B0087776A /* IBMPlexMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B31262BED1A2B0087776A /* IBMPlexMono-ThinItalic.ttf */; };
 		1F1B31362BED1A2B0087776A /* IBMPlexMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B31272BED1A2B0087776A /* IBMPlexMono-SemiBoldItalic.ttf */; };
 		1F1B313A2BED24590087776A /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B31392BED24590087776A /* CustomFonts.swift */; };
+		1F4413082C123EAF0079BF77 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4413072C123EAE0079BF77 /* CoinDataService.swift */; };
+		1F48D6692BFAC7C700064D52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F48D6682BFAC7C700064D52 /* GoogleService-Info.plist */; };
+		1F48D66C2BFAC92900064D52 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1F48D66B2BFAC92900064D52 /* FirebaseAnalytics */; };
+		1F48D66E2BFAC92900064D52 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1F48D66D2BFAC92900064D52 /* FirebaseAnalyticsSwift */; };
+		1F48D6712BFACDBD00064D52 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F48D6702BFACDBD00064D52 /* Color.swift */; };
+		1F48D6782BFAD39F00064D52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F48D6772BFAD39F00064D52 /* HomeView.swift */; };
+		1F48D67F2BFAD57200064D52 /* AuthificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F48D67E2BFAD57200064D52 /* AuthificationView.swift */; };
+		1F6BD1102C0013BE00C6F5EF /* ValidCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BD10F2C0013BE00C6F5EF /* ValidCheck.swift */; };
+		1F6BD1122C0017D400C6F5EF /* SingupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BD1112C0017D400C6F5EF /* SingupView.swift */; };
+		1F6BD1142C00199000C6F5EF /* AuthFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BD1132C00199000C6F5EF /* AuthFlowView.swift */; };
+		1F6BD1162C01DC5F00C6F5EF /* AppViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BD1152C01DC5F00C6F5EF /* AppViewTest.swift */; };
+		1F6BD1182C01DCB700C6F5EF /* FlowScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BD1172C01DCB700C6F5EF /* FlowScreens.swift */; };
+		1FA1DA592BFFB449001E4F47 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA1DA582BFFB449001E4F47 /* FirebaseAuth */; };
+		1FB062472C13D53700662771 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB062462C13D53700662771 /* FirebaseFirestore */; };
+		1FB062492C13D53700662771 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB062482C13D53700662771 /* FirebaseFirestoreSwift */; };
+		1FB0624C2C13D95900662771 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0624B2C13D95900662771 /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +72,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F05DC042C0C812400B53794 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1F05DC062C0C857300B53794 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		1F05DC0C2C10AE3100B53794 /* ButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonApp.swift; sourceTree = "<group>"; };
+		1F05DC0E2C10D01C00B53794 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		1F05DC102C10E2AD00B53794 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		1F05DC122C10E87C00B53794 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		1F05DC142C10EEFE00B53794 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		1F05DC162C1113D100B53794 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1F1B30E92BED0D3F0087776A /* CrypoCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrypoCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1B30EC2BED0D3F0087776A /* CrypoCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypoCoinApp.swift; sourceTree = "<group>"; };
-		1F1B30EE2BED0D3F0087776A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F1B30F02BED0D420087776A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F1B30F32BED0D420087776A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F1B30F92BED0D420087776A /* CrypoCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrypoCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +105,17 @@
 		1F1B31272BED1A2B0087776A /* IBMPlexMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		1F1B31382BED1D4F0087776A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F1B31392BED24590087776A /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		1F4413072C123EAE0079BF77 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		1F48D6682BFAC7C700064D52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F48D6702BFACDBD00064D52 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1F48D6772BFAD39F00064D52 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1F48D67E2BFAD57200064D52 /* AuthificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthificationView.swift; sourceTree = "<group>"; };
+		1F6BD10F2C0013BE00C6F5EF /* ValidCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidCheck.swift; sourceTree = "<group>"; };
+		1F6BD1112C0017D400C6F5EF /* SingupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupView.swift; sourceTree = "<group>"; };
+		1F6BD1132C00199000C6F5EF /* AuthFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowView.swift; sourceTree = "<group>"; };
+		1F6BD1152C01DC5F00C6F5EF /* AppViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewTest.swift; sourceTree = "<group>"; };
+		1F6BD1172C01DCB700C6F5EF /* FlowScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowScreens.swift; sourceTree = "<group>"; };
+		1FB0624B2C13D95900662771 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +123,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB062492C13D53700662771 /* FirebaseFirestoreSwift in Frameworks */,
+				1F48D66E2BFAC92900064D52 /* FirebaseAnalyticsSwift in Frameworks */,
+				1FB062472C13D53700662771 /* FirebaseFirestore in Frameworks */,
+				1FA1DA592BFFB449001E4F47 /* FirebaseAuth in Frameworks */,
+				1F48D66C2BFAC92900064D52 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +148,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F05DC032C0C800000B53794 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F05DC042C0C812400B53794 /* UserModel.swift */,
+				1F05DC0E2C10D01C00B53794 /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F05DC082C10AC9A00B53794 /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+				1F05DC092C10ACB800B53794 /* Button */,
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+		1F05DC092C10ACB800B53794 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1F05DC0C2C10AE3100B53794 /* ButtonApp.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		1F1B30E02BED0D3F0087776A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +180,7 @@
 				1F1B30FC2BED0D420087776A /* CrypoCoinTests */,
 				1F1B31062BED0D420087776A /* CrypoCoinUITests */,
 				1F1B30EA2BED0D3F0087776A /* Products */,
+				1FA1DA572BFFB449001E4F47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +197,11 @@
 		1F1B30EB2BED0D3F0087776A /* CrypoCoin */ = {
 			isa = PBXGroup;
 			children = (
+				1F4413062C12395D0079BF77 /* Services */,
+				1F48D66F2BFACD5300064D52 /* Extensions */,
+				1F05DC032C0C800000B53794 /* Model */,
+				1F48D6722BFAD2CC00064D52 /* Core */,
+				1F48D6682BFAC7C700064D52 /* GoogleService-Info.plist */,
 				1F1B31182BED0F240087776A /* Resources */,
 				1F1B31172BED0F0D0087776A /* Configuration */,
 				1F1B31162BED0F050087776A /* App */,
@@ -161,8 +238,9 @@
 		1F1B31162BED0F050087776A /* App */ = {
 			isa = PBXGroup;
 			children = (
+				1F22D3872BEDC68D0075F04F /* Entity */,
+				1F22D3862BEDC67D0075F04F /* UI */,
 				1F1B30EC2BED0D3F0087776A /* CrypoCoinApp.swift */,
-				1F1B30EE2BED0D3F0087776A /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -206,6 +284,136 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		1F22D3862BEDC67D0075F04F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1F22D3892BEDC6E80075F04F /* Flows */,
+				1F22D3882BEDC6DD0075F04F /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1F22D3872BEDC68D0075F04F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1F22D3882BEDC6DD0075F04F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1F22D3892BEDC6E80075F04F /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		1F4413062C12395D0079BF77 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F4413072C123EAE0079BF77 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F48D66F2BFACD5300064D52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F48D6702BFACDBD00064D52 /* Color.swift */,
+				1F6BD10F2C0013BE00C6F5EF /* ValidCheck.swift */,
+				1F05DC122C10E87C00B53794 /* PreviewProvider.swift */,
+				1F05DC142C10EEFE00B53794 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F48D6722BFAD2CC00064D52 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1FB0624A2C13D93100662771 /* Firestore */,
+				1F05DC082C10AC9A00B53794 /* Componets */,
+				1F48D6792BFAD50000064D52 /* Authification */,
+				1F48D6732BFAD33900064D52 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1F48D6732BFAD33900064D52 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1F48D6762BFAD36900064D52 /* Views */,
+				1F48D6742BFAD34A00064D52 /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1F48D6742BFAD34A00064D52 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F05DC162C1113D100B53794 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F48D6762BFAD36900064D52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F48D6772BFAD39F00064D52 /* HomeView.swift */,
+				1F05DC102C10E2AD00B53794 /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F48D6792BFAD50000064D52 /* Authification */ = {
+			isa = PBXGroup;
+			children = (
+				1F48D67B2BFAD52F00064D52 /* ViewModels */,
+				1F48D67A2BFAD51D00064D52 /* Views */,
+			);
+			path = Authification;
+			sourceTree = "<group>";
+		};
+		1F48D67A2BFAD51D00064D52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BD1112C0017D400C6F5EF /* SingupView.swift */,
+				1F6BD1132C00199000C6F5EF /* AuthFlowView.swift */,
+				1F6BD1152C01DC5F00C6F5EF /* AppViewTest.swift */,
+				1F48D67E2BFAD57200064D52 /* AuthificationView.swift */,
+				1F6BD1172C01DCB700C6F5EF /* FlowScreens.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F48D67B2BFAD52F00064D52 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F05DC062C0C857300B53794 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1FA1DA572BFFB449001E4F47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FB0624A2C13D93100662771 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				1FB0624B2C13D95900662771 /* UserManager.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,6 +430,13 @@
 			dependencies = (
 			);
 			name = CrypoCoin;
+			packageProductDependencies = (
+				1F48D66B2BFAC92900064D52 /* FirebaseAnalytics */,
+				1F48D66D2BFAC92900064D52 /* FirebaseAnalyticsSwift */,
+				1FA1DA582BFFB449001E4F47 /* FirebaseAuth */,
+				1FB062462C13D53700662771 /* FirebaseFirestore */,
+				1FB062482C13D53700662771 /* FirebaseFirestoreSwift */,
+			);
 			productName = CrypoCoin;
 			productReference = 1F1B30E92BED0D3F0087776A /* CrypoCoin.app */;
 			productType = "com.apple.product-type.application";
@@ -294,6 +509,9 @@
 				Base,
 			);
 			mainGroup = 1F1B30E02BED0D3F0087776A;
+			packageReferences = (
+				1F48D66A2BFAC92900064D52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1F1B30EA2BED0D3F0087776A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -322,6 +540,7 @@
 				1F1B312E2BED1A2B0087776A /* IBMPlexMono-BoldItalic.ttf in Resources */,
 				1F1B31342BED1A2B0087776A /* IBMPlexMono-ExtraLightItalic.ttf in Resources */,
 				1F1B31332BED1A2B0087776A /* IBMPlexMono-Light.ttf in Resources */,
+				1F48D6692BFAC7C700064D52 /* GoogleService-Info.plist in Resources */,
 				1F1B312C2BED1A2B0087776A /* IBMPlexMono-ExtraLight.ttf in Resources */,
 				1F1B312B2BED1A2B0087776A /* IBMPlexMono-LightItalic.ttf in Resources */,
 				1F1B31302BED1A2B0087776A /* IBMPlexMono-Bold.ttf in Resources */,
@@ -351,8 +570,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F1B313A2BED24590087776A /* CustomFonts.swift in Sources */,
-				1F1B30EF2BED0D3F0087776A /* ContentView.swift in Sources */,
+				1F05DC172C1113D100B53794 /* HomeViewModel.swift in Sources */,
+				1F48D6782BFAD39F00064D52 /* HomeView.swift in Sources */,
+				1F05DC152C10EEFE00B53794 /* Double.swift in Sources */,
+				1F4413082C123EAF0079BF77 /* CoinDataService.swift in Sources */,
+				1F6BD1142C00199000C6F5EF /* AuthFlowView.swift in Sources */,
+				1F48D67F2BFAD57200064D52 /* AuthificationView.swift in Sources */,
 				1F1B30ED2BED0D3F0087776A /* CrypoCoinApp.swift in Sources */,
+				1F6BD1182C01DCB700C6F5EF /* FlowScreens.swift in Sources */,
+				1F05DC0F2C10D01C00B53794 /* CoinModel.swift in Sources */,
+				1F48D6712BFACDBD00064D52 /* Color.swift in Sources */,
+				1F6BD1122C0017D400C6F5EF /* SingupView.swift in Sources */,
+				1F6BD1102C0013BE00C6F5EF /* ValidCheck.swift in Sources */,
+				1F05DC0D2C10AE3100B53794 /* ButtonApp.swift in Sources */,
+				1F05DC052C0C812400B53794 /* UserModel.swift in Sources */,
+				1F05DC112C10E2AD00B53794 /* CoinRowView.swift in Sources */,
+				1F05DC132C10E87C00B53794 /* PreviewProvider.swift in Sources */,
+				1F05DC072C0C857300B53794 /* UserViewModel.swift in Sources */,
+				1FB0624C2C13D95900662771 /* UserManager.swift in Sources */,
+				1F6BD1162C01DC5F00C6F5EF /* AppViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +922,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F48D66A2BFAC92900064D52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F48D66B2BFAC92900064D52 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F48D66A2BFAC92900064D52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1F48D66D2BFAC92900064D52 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F48D66A2BFAC92900064D52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		1FA1DA582BFFB449001E4F47 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F48D66A2BFAC92900064D52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1FB062462C13D53700662771 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F48D66A2BFAC92900064D52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1FB062482C13D53700662771 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F48D66A2BFAC92900064D52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F1B30E12BED0D3F0087776A /* Project object */;
 }

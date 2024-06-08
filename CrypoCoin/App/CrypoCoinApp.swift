@@ -1,17 +1,28 @@
-//
-//  CrypoCoinApp.swift
-//  CrypoCoin
-//
-//  Created by Александр Харламов on 09/05/2024.
-//
-
 import SwiftUI
-
+import FirebaseCore
+import FirebaseFirestore
 @main
 struct CrypoCoinApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject private var userMV = UserViewModel()
+    @StateObject var homeMV = HomeViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlowScreens()
+                .environmentObject(userMV)
+                .environmentObject(homeMV)
         }
     }
 }
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
+
+//    print("FireBase works!")
+    return true
+  }
+}
+
