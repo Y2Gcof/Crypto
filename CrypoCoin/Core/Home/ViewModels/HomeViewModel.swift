@@ -11,7 +11,6 @@ class HomeViewModel: ObservableObject{
     @Published var allCoinsArray: [CoinModel] = []
     @Published var usersCoinsArray: [CoinModel] = []
     private let dataService = CoinDataService()
-    
     private var cancellable = Set<AnyCancellable>()
     
     init(){
@@ -27,6 +26,7 @@ class HomeViewModel: ObservableObject{
                 .store(in: &cancellable)
         }
     }
+    
     func getCoins() async throws -> [CoinModel]{
         let userData = try await UserManager.shared.getUserData(auth: UserModel.shared)
         self.usersCoinsArray = self.allCoinsArray.filter {coin in

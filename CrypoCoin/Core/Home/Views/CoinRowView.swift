@@ -24,9 +24,9 @@ struct CoinRowView: View {
     }
 }
 
-//#Preview {
-//    CoinRowView(coin: DeveloperPreviewProvider.instance.coin, remove: {})
-//}
+#Preview {
+    CoinRowView(coin: DeveloperPreviewProvider.instance.coin, remove: {})
+}
 extension CoinRowView{
     
     var leftRowCollum: some View {

@@ -5,7 +5,7 @@ import FirebaseFirestore
 struct CrypoCoinApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    @StateObject private var userMV = UserViewModel()
+    @StateObject var userMV = UserViewModel()
     @StateObject var homeMV = HomeViewModel()
     var body: some Scene {
         WindowGroup {

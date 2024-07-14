@@ -60,6 +60,11 @@ struct HomeView: View {
         }
     }
 }
+#Preview {
+    HomeView()
+        .environmentObject(HomeViewModel())
+        .environmentObject(UserViewModel())
+}
 
 
 
@@ -69,13 +74,14 @@ extension HomeView{
             ForEach(homeVM.allCoinsArray){coin in
                 CoinRowView(coin: coin, remove: {}, showHoldingsColumn: false)
                     .listRowInsets(.init(top: 10, leading: 10, bottom: 0, trailing: 10))
+                    .contentShape(Rectangle())
                     .onTapGesture {
                         print("dad")
                         Task {
-                            do {
+                            do{
                                 try await homeVM.addCoin(coin: coin)
                             } catch {
-                                
+                                print(error)
                             }
                         }
                     }

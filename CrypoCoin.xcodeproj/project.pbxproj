@@ -383,9 +383,9 @@
 			isa = PBXGroup;
 			children = (
 				1F6BD1112C0017D400C6F5EF /* SingupView.swift */,
+				1F48D67E2BFAD57200064D52 /* AuthificationView.swift */,
 				1F6BD1132C00199000C6F5EF /* AuthFlowView.swift */,
 				1F6BD1152C01DC5F00C6F5EF /* AppViewTest.swift */,
-				1F48D67E2BFAD57200064D52 /* AuthificationView.swift */,
 				1F6BD1172C01DCB700C6F5EF /* FlowScreens.swift */,
 			);
 			path = Views;

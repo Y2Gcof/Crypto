@@ -20,13 +20,22 @@ class UserManager{
     }
     
     func getUserData(auth: UserModel) async throws -> Array<String>{
-        let snap = try await Firestore.firestore().collection("users").document(auth.userUid).getDocument()
-        guard let data = snap.data() else{
-            throw URLError(.badServerResponse)
+        do {
+            var snapTmp = try await Firestore.firestore().collection("users").document(auth.userUid)
+            print("snapTmp: \(snapTmp)")
+            var snap = try await snapTmp.getDocument()
+            guard let data = snap.data() else{
+                throw URLError(.badServerResponse)
+            }
+            
+            let arrayOfCoins = data["arrayOfCoins"] as? Array<String>
+            // Обработка полученных данных
+            return arrayOfCoins!
+        } catch {
+            // Вывод или обработка ошибки
+            print("Ошибка при получении данных: \(error.localizedDescription)")
+            throw error
         }
-        
-        let arrayOfCoins = data["arrayOfCoins"] as? Array<String>
-        return arrayOfCoins!
     }
     
     func addCoinToUser(auth: UserModel, coin: CoinModel) async throws {
